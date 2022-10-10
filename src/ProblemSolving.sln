@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode", "LeetCode", "{0E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum_1", "LeetCode\TwoSum_1\TwoSum_1.csproj", "{4010CA30-9D8E-48BB-935B-88F087A3D7C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum_Average_Subarray_643", "LeetCode\Maximum_Average_Subarray_643\Maximum_Average_Subarray_643.csproj", "{3675187E-F6BA-400B-B926-962B16167ABC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,8 +16,13 @@ Global
 		{4010CA30-9D8E-48BB-935B-88F087A3D7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4010CA30-9D8E-48BB-935B-88F087A3D7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4010CA30-9D8E-48BB-935B-88F087A3D7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3675187E-F6BA-400B-B926-962B16167ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3675187E-F6BA-400B-B926-962B16167ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3675187E-F6BA-400B-B926-962B16167ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3675187E-F6BA-400B-B926-962B16167ABC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4010CA30-9D8E-48BB-935B-88F087A3D7C3} = {0E00F6DD-4065-48D9-9450-42511DDCEC19}
+		{3675187E-F6BA-400B-B926-962B16167ABC} = {0E00F6DD-4065-48D9-9450-42511DDCEC19}
 	EndGlobalSection
 EndGlobal

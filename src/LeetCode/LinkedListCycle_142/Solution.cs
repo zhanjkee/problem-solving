@@ -1,3 +1,4 @@
+using System;
 using Xunit;
 
 namespace LinkedListCycle_142;
@@ -68,6 +69,8 @@ public class Solution
 
 	private ListNode GetCycledListNode(out ListNode excepted)
 	{
+		var arr = new[] { 1, 2, 2, 2, 1 };
+		Array.Sort(arr);
 		var head = new ListNode(1);
 		excepted = new ListNode(2);
 		var third = new ListNode(3);
